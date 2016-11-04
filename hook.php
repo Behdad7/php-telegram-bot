@@ -49,6 +49,8 @@ try {
     // Botan.io integration
     //$telegram->enableBotan('your_token');
     // Handle telegram webhook request
+    $result = Request::sendMessage(['chat_id' => $chat_id, 'text' => 'Your utf8 text 😜 ...']);
+
     $telegram->handle();
 } catch (Longman\TelegramBot\Exception\TelegramException $e) {
     // Silence is golden!
