@@ -9,6 +9,7 @@
  */
 // Load composer
 require __DIR__ . '/vendor/autoload.php';
+use Longman\TelegramBot\Request;
 // Add you bot's API key and name
 $API_KEY = '258123864:AAGf0QayDyTslQ1-V5d3hb49nD3y0C1b424';
 $BOT_NAME = 'ibnSinaBot';
